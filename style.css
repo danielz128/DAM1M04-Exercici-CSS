@@ -10,9 +10,20 @@ h1 {
 h2 {
 
 }
-a {
-
+nav > a {
+    color: midnightblue;
+    text-decoration: none;
+}
+nav > a:hover {
+    color: mediumblue;
+}
+.red {
+    color: firebrick;
 }
 #code-list > li {
     font-family: "Quantico", sans-serif;
+}
+#profile {
+    border: 1em solid seashell;
+    border-radius: 50%;
 }
